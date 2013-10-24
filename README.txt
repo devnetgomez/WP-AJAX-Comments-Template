@@ -28,17 +28,11 @@ You know how to do!
 
 
 == Screenshots ==
-1. Home Wordpress with plugin enabled - see the lower left corner of the menu.
-2. Wordpress enviroment information saved - In the above example we used the godaddy.
-3. The second part of the above example.
-4. All Wordpress settings options (enjoy)!
-5. All php settings from the Wordpress enviroment phpinfo.
+1. Settings Panel on Administrator Area
+2. Single post comment area with the plugin activated.
 
 
 == Changelog ==
 
-= 1.1 =
-* Images path corrections
-
 = 1.0 =
-* First version of the system
+* First version of the plugin
