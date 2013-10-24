@@ -10,12 +10,9 @@ function EnviarComentario()
 
     $comment = $_POST['comment']; 
     $comment_post_ID = $_POST['comment_post_ID']; 
-    $comment_parent = $_POST['comment_parent'];
-    $_wp_unfiltered_html_comment   = $_POST['_wp_unfiltered_html_comment'];
+    $comment_parent = $_POST['comment_parent'];   
 
-    $author = $_POST['author'];
-    $email = $_POST['email'];
-    $url = $_POST['url'];
+    
     $user_id = 0;
 
     $time = current_time('mysql');
@@ -26,7 +23,7 @@ function EnviarComentario()
 
       get_currentuserinfo();
 
-     // var_dump($current_user);
+     
 
       $comment_author       = $current_user->display_name; 
       $comment_author_email = $current_user->user_email;
@@ -36,9 +33,9 @@ function EnviarComentario()
     }
     else
     {
-      $comment_author       = $author;
-      $comment_author_email = $email;
-      $comment_author_url   = $url;
+      $comment_author       = $_POST['author'];
+      $comment_author_email = $_POST['email'];
+      $comment_author_url   = $_POST['url'];
     }
 
 
@@ -145,6 +142,8 @@ add_action('wp_ajax_nopriv_EnviarComentario', 'EnviarComentario');
 
 function EscreveJavascript()
 { ?>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 <script>
 
 jQuery(function($)

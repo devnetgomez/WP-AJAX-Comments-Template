@@ -56,7 +56,7 @@
         'url' => '<label>
         <input type="text" name="url" id="url" value="' . esc_attr( $commenter['comment_author_url'] ) .'">  Website '.( $req ? '<span>*</span>' : '' ).'</label>') ;
 
-        $campo_comentario = '<p class="comment-form-comment"><h2>Mensagem</h2><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" > </textarea> <span class="textarea-required" >*</span></p>';
+        $campo_comentario = '<p class="comment-form-comment"><h2>Mensagem</h2><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" ></textarea> <span class="textarea-required" >*</span></p>';
 
         break;
       
@@ -80,8 +80,7 @@
             name="comment" 
             cols="45" 
             rows="8" 
-            aria-required="true" >
-            </textarea><span class="textarea-required">*</span></p>';
+            aria-required="true" ></textarea><span class="textarea-required">*</span></p>';
 
         break;
     }
