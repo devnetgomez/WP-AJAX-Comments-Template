@@ -1,5 +1,5 @@
-=== Plugin Name ===
-Contributors: devnetgomez
+=== WP AJAX Comments Template ===
+Contributors: jaynnegomes
 Donate link: http://mycodewith.wordpress.com
 Tags: comment, comments,comments template
 Requires at least: 3.6
