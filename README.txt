@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This Wordpress plugin overrides the default template comments, through filters allowing you to add comment validation size(max and min) and define the style of the comment form and comments listing. Uses PHP, AJAX and jQuery.
+This Wordpress plugin overrides the default template comments, allowing you to add comment validation size(max and min) using AJAX and jQuery.
 
 == Description ==
 
